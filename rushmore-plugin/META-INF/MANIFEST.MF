@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ClouDE Plugin
+Bundle-SymbolicName: rushmore-plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.urishatil.rushmore.activator.Activator
+Bundle-Vendor: Uri Shatil
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.ide;bundle-version="3.8.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.eclipse.core.resources,
+ org.eclipse.jface.text.source
+Bundle-ActivationPolicy: lazy

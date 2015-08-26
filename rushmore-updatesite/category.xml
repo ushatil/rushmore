@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/rushmore-feature-1.0.0-SNAPSHOT.jar" id="rushmore-feature" version="1.0.0.qualifier">
+      <category name="ClouDE"/>
+   </feature>
+   <category-def name="ClouDE" label="ClouDE"/>
+</site>
